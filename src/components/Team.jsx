@@ -6,6 +6,7 @@ import imranImg from "../assets/Imran.jpg";
 import nazirImg from "../assets/Nazir.jpeg";
 import ummeaimanImg from "../assets/Ummi.png";
 import shashiImg from "../assets/Shashi.jpeg";
+import femalePlaceholderImg from "../assets/femaleplaceholder.png";
 
 const leadershipMembers = [
   {
@@ -90,7 +91,7 @@ const advisoryMembers = [
     roleKey: "",
     hideBadge: true,
     titleKey: "",
-    image: ummeaimanImg,
+    image: femalePlaceholderImg,
     pillClass: "bg-teal/12 text-teal-dark border border-teal/25",
     gradient:
       "linear-gradient(135deg, rgba(26,138,117,0.09) 0%, rgba(13,33,55,0.07) 100%)",
@@ -168,29 +169,22 @@ export default function Team() {
             className={`bg-white rounded-2xl border border-black/[0.07] overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col text-left ${member.wide ? "md:col-span-2 md:flex-row" : ""}`}
           >
             {/* Photo Slot */}
-            <div
-              className={`shrink-0 ${member.wide ? "md:w-[240px] md:h-[300px]" : ""}`}
-            >
+            {member.image && (
               <div
-                className={`w-full h-full min-h-[220px] flex flex-col items-center justify-center gap-2 border-dashed border-teal/20 cursor-pointer transition-colors duration-200 hover:opacity-95 ${member.wide ? "md:border-r-2 md:border-t-0 md:border-b-0 md:border-l-0 rounded-none" : "border-b-2 rounded-none"}`}
-                style={{ background: member.gradient }}
+                className={`shrink-0 ${member.wide ? "md:w-[240px] md:h-[300px]" : ""}`}
               >
-                {member.image ? (
+                <div
+                  className={`w-full h-full min-h-[220px] flex flex-col items-center justify-center gap-2 border-dashed border-teal/20 cursor-pointer transition-colors duration-200 hover:opacity-95 ${member.wide ? "md:border-r-2 md:border-t-0 md:border-b-0 md:border-l-0 rounded-none" : "border-b-2 rounded-none"}`}
+                  style={{ background: member.gradient }}
+                >
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover object-top"
                   />
-                ) : (
-                  <>
-                    <div className="text-[32px] opacity-50">📷</div>
-                    <div className="text-[11px] text-text-light text-center px-3 font-semibold">
-                      {member.name}
-                    </div>
-                  </>
-                )}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Card Body */}
             <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between">
@@ -246,29 +240,22 @@ export default function Team() {
             key={i}
             className={`bg-white rounded-2xl border border-black/[0.07] overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col text-left ${member.wide ? "md:col-span-2 md:flex-row" : ""}`}
           >
-            <div
-              className={`shrink-0 ${member.wide ? "md:w-[240px] md:h-[300px]" : ""}`}
-            >
+            {member.image && (
               <div
-                className={`w-full h-full min-h-[220px] flex flex-col items-center justify-center gap-2 border-dashed border-teal/20 cursor-pointer transition-colors duration-200 hover:opacity-95 ${member.wide ? "md:border-r-2 md:border-t-0 md:border-b-0 md:border-l-0 rounded-none" : "border-b-2 rounded-none"}`}
-                style={{ background: member.gradient }}
+                className={`shrink-0 ${member.wide ? "md:w-[240px] md:h-[300px]" : ""}`}
               >
-                {member.image ? (
+                <div
+                  className={`w-full h-full min-h-[220px] flex flex-col items-center justify-center gap-2 border-dashed border-teal/20 cursor-pointer transition-colors duration-200 hover:opacity-95 ${member.wide ? "md:border-r-2 md:border-t-0 md:border-b-0 md:border-l-0 rounded-none" : "border-b-2 rounded-none"}`}
+                  style={{ background: member.gradient }}
+                >
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-full h-full object-cover object-top"
                   />
-                ) : (
-                  <>
-                    <div className="text-[32px] opacity-50">📷</div>
-                    <div className="text-[11px] text-text-light text-center px-3 font-semibold">
-                      {member.name}
-                    </div>
-                  </>
-                )}
+                </div>
               </div>
-            </div>
+            )}
 
             <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between">
               <div>
