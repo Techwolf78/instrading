@@ -7,7 +7,7 @@ import nazirImg from "../assets/Nazir.jpeg";
 import ummeaimanImg from "../assets/Ummi.png";
 import shashiImg from "../assets/Shashi.jpeg";
 
-const members = [
+const leadershipMembers = [
   {
     name: "Mohammad Imran Nazari",
     role: "Chairman",
@@ -64,6 +64,9 @@ const members = [
     tagKeys: ["tagPharmaBiotech", "tagWHOExpert", "tagQualityMgmt", "tag37Yrs"],
     wide: true,
   },
+];
+
+const advisoryMembers = [
   {
     name: "Mr. Nazir Nazari",
     role: "Head of Business",
@@ -138,23 +141,26 @@ const members = [
 export default function Team() {
   const { t } = useLanguage();
   return (
-    <section className="bg-cream py-24 px-6 md:px-12" id="team">
-      <div className="text-center max-w-[640px] m-auto mb-[60px]">
-        <div className="flex items-center gap-2.5 text-teal text-[11px] tracking-[3px] uppercase mb-3 justify-center font-semibold">
-          <div className="w-6 h-[1px] bg-teal" />
-          Leadership
-        </div>
-        <h2 className="font-serif text-3xl sm:text-[46px] font-bold leading-tight mb-4 text-navy">
-          Meet Our Team
+    <section className="bg-cream py-12 px-6 md:px-12" id="team">
+      {/* Section Header */}
+      <div className="text-center max-w-[640px] mx-auto mb-14">
+        <h2 className="font-serif text-3xl sm:text-[46px] font-bold leading-tight text-navy">
+          {t("teamTitle")}
         </h2>
-        <p className="text-base sm:text-lg leading-relaxed text-text-mid">
-          A leadership team combining Afghan business expertise with decades of
-          global pharmaceutical, finance, education and sales experience.
+        <p className="text-base sm:text-lg leading-relaxed text-text-mid mt-3">
+          {t("teamDesc")}
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl m-auto">
-        {members.map((member, i) => (
+      {/* INS Leadership */}
+      <div className="mb-8 text-left max-w-6xl mx-auto">
+          <div className="flex items-center gap-3 text-teal text-2xl tracking-[2px] uppercase font-bold">
+          <div className="w-10 h-[2px] bg-teal" />
+          INS Leadership
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl m-auto mb-16">
+        {leadershipMembers.map((member, i) => (
           <div
             key={i}
             className={`bg-white rounded-2xl border border-black/[0.07] overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col text-left ${member.wide ? "md:col-span-2 md:flex-row" : ""}`}
@@ -185,6 +191,83 @@ export default function Team() {
             </div>
 
             {/* Card Body */}
+            <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between">
+              <div>
+                <div
+                  className={`inline-block text-[10px] font-semibold tracking-[1.5px] uppercase py-1 px-3 rounded-full mb-2.5 ${member.pillClass}`}
+                >
+                  {t(member.roleKey)}
+                </div>
+                <h3 className="font-serif text-[19px] text-navy mb-0.5 leading-tight font-bold">
+                  {member.name}
+                </h3>
+                <p className="text-[11px] text-teal-dark font-semibold leading-tight mb-0.5">
+                  {t(member.titleKey || member.title)}
+                </p>
+                {member.qual && (
+                  <p className="text-[10px] text-text-light tracking-[0.5px] mb-0.5">
+                    {t(member.qualKey || member.qual)}
+                  </p>
+                )}
+
+                <div className="w-7 h-[2px] bg-teal rounded-sm my-3" />
+                <p className="text-xs sm:text-[13px] leading-relaxed text-text-mid mb-4.5">
+                  {t(member.bioKey || member.bio)}
+                </p>
+              </div>
+
+              <div className="flex flex-wrap gap-1.5 mt-auto">
+                {(member.tagKeys || member.tags).map((tag, idx) => (
+                  <span
+                    key={idx}
+                    className="bg-teal-pale border border-cream-dark text-teal-dark text-[10px] px-2 py-0.5 rounded-full font-medium"
+                  >
+                    {member.tagKeys ? t(tag) : tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Advisory Board */}
+      <div className="mt-20 mb-8 text-left max-w-6xl mx-auto">
+          <div className="flex items-center gap-3 text-teal text-2xl tracking-[2px] uppercase font-bold">
+          <div className="w-10 h-[2px] bg-teal" />
+          Advisory Board
+        </div>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl m-auto">
+        {advisoryMembers.map((member, i) => (
+          <div
+            key={i}
+            className={`bg-white rounded-2xl border border-black/[0.07] overflow-hidden transition-all duration-200 hover:-translate-y-1 hover:shadow-xl flex flex-col text-left ${member.wide ? "md:col-span-2 md:flex-row" : ""}`}
+          >
+            <div
+              className={`shrink-0 ${member.wide ? "md:w-[240px] md:h-[300px]" : ""}`}
+            >
+              <div
+                className={`w-full h-full min-h-[220px] flex flex-col items-center justify-center gap-2 border-dashed border-teal/20 cursor-pointer transition-colors duration-200 hover:opacity-95 ${member.wide ? "md:border-r-2 md:border-t-0 md:border-b-0 md:border-l-0 rounded-none" : "border-b-2 rounded-none"}`}
+                style={{ background: member.gradient }}
+              >
+                {member.image ? (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover object-top"
+                  />
+                ) : (
+                  <>
+                    <div className="text-[32px] opacity-50">📷</div>
+                    <div className="text-[11px] text-text-light text-center px-3 font-semibold">
+                      {member.name}
+                    </div>
+                  </>
+                )}
+              </div>
+            </div>
+
             <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between">
               <div>
                 <div

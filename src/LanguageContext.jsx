@@ -202,10 +202,8 @@ const translations = {
       "Vice Chairman, INS · Director Finance & Operations, BioBridge",
     titleDirector: "Director, INS · Founder & CEO, BioBridge Healthcare",
     titleHeadOfBusiness: "Head of Business, INS Group of Companies",
-    titleDirectorSales:
-      "Director Sales & Marketing, INS · Co-Founder & CEO, Gryphon Academy",
-    titleAdvisor:
-      "Advisor, INS · Founder & Director, Gryphon Academy Pvt. Ltd.",
+    titleDirectorSales: "Director Sales & Marketing, INS",
+    titleAdvisor: "Advisor, INS",
     tagAfghanTrade: "Afghan Trade",
     tagStrategicLeadership: "Strategic Leadership",
     tagBusinessDev: "Business Development",
@@ -235,11 +233,11 @@ const translations = {
     bioDirector:
       "Quality and operations management professional with 37+ years in the biotechnology industry. Former President of Operations at Bharat Serums & Vaccines Ltd., with roles at Panacea Biotec, Bharat Immunologicals, NEERI and National Cell Culture Sciences. Enlisted by WHO Geneva on their NRA expert panel; conducted cGMP training under the Global Training Network. Has faced audits from WHO, USFDA, EMEA and NAFDAC.",
     bioHeadOfBusiness:
-      "Mr. Nazir Nazari serves as Head of Business at INS Group, driving the company's commercial operations and client relationships across Afghanistan. With hands-on experience in business development and delivery management — including his role at Gryphon Academy — he brings a strong understanding of cross-sector project execution, institutional coordination, and operational management. At INS, he oversees business planning, partner engagement and day-to-day commercial activities.",
+      "Mr. Nazir Nazari serves as Head of Business at INS Group, driving the company's commercial operations and client relationships across Afghanistan. With hands-on experience in business development and delivery management, he brings a strong understanding of cross-sector project execution, institutional coordination, and operational management. At INS, he oversees business planning, partner engagement and day-to-day commercial activities.",
     bioDirectorSales:
-      "Ms. Ummeaiman Ansari is the Co-Founder and CEO of Gryphon Academy Pvt. Ltd., Pune — a corporate training firm bridging the gap between industry and academia. Known for her visionary leadership, exceptional time management and ability to guide teams through high-pressure environments, she has driven institutional outreach across leading colleges and corporates in India. At INS, she leads sales strategy, market development and brand partnerships — connecting Afghan trade with Indian and global buyers.",
+      "Ms. Ummeaiman Ansari is a seasoned sales and marketing professional with a proven track record in market development and brand strategy. Known for her visionary leadership, exceptional time management and ability to guide teams through high-pressure environments. At INS, she leads sales strategy, market development and brand partnerships — connecting Afghan trade with Indian and global buyers.",
     bioAdvisor:
-      "Founder and Director of Gryphon Academy Pvt. Ltd., Pune, with a distinguished career spanning Cisco Systems (Senior Sales & Marketing), Vcustomer India Services, and Indira Group of Institutes (Director, Corporate Relations). He brings deep expertise in strategic planning, corporate relations, team management and business development. His advisory role at INS draws on his extensive network across Indian industry, academia and corporate sectors, supporting expansion and institutional partnerships in India.",
+      "A distinguished professional with a career spanning Cisco Systems (Senior Sales & Marketing), Vcustomer India Services, and Indira Group of Institutes (Director, Corporate Relations). He brings deep expertise in strategic planning, corporate relations, team management and business development. His advisory role at INS draws on his extensive network across Indian industry, academia and corporate sectors, supporting expansion and institutional partnerships in India.",
 
     /* Contact */
     contactLabel: "Get In Touch",
@@ -500,9 +498,8 @@ const translations = {
     titleViceChairman: "نایب رئیس، INS · مدیر مالی و عملیات، BioBridge",
     titleDirector: "مدیر، INS · بنیانگذار و مدیرعامل، BioBridge Healthcare",
     titleHeadOfBusiness: "رئیس تجارت، گروه شرکت‌های INS",
-    titleDirectorSales:
-      "مدیر فروش و بازاریابی، INS · هم‌بنیانگذار و مدیرعامل، Gryphon Academy",
-    titleAdvisor: "مشاور، INS · بنیانگذار و مدیر، Gryphon Academy Pvt. Ltd.",
+    titleDirectorSales: "مدیر فروش و بازاریابی، INS",
+    titleAdvisor: "مشاور، INS",
     tagAfghanTrade: "تجارت افغانستان",
     tagStrategicLeadership: "رهبری استراتژیک",
     tagBusinessDev: "توسعه تجارت",
@@ -534,9 +531,9 @@ const translations = {
     bioHeadOfBusiness:
       "آقای ناظر ناظری به عنوان رئیس تجارت در گروه INS فعالیت می‌کند و عملیات تجاری و روابط مشتریان را در سراسر افغانستان هدایت می‌کند.",
     bioDirectorSales:
-      "خانم امیمان انصاری هم‌بنیانگذار و مدیرعامل Gryphon Academy Pvt. Ltd.، پونه است — یک شرکت آموزشی شرکتی که شکاف بین صنعت و دانشگاه را پر می‌کند.",
+      "خانم امیمان انصاری یک حرفه‌ای در زمینه فروش و بازاریابی با سابقه اثبات شده در توسعه بازار و استراتژی برند است. در INS، او استراتژی فروش، توسعه بازار و مشارکت‌های برند را رهبری می‌کند.",
     bioAdvisor:
-      "بنیانگذار و مدیر Gryphon Academy Pvt. Ltd.، پونه، با یک حرفه برجسته در Cisco Systems. او تخصص عمیقی در برنامه‌ریزی استراتژیک، روابط شرکتی و توسعه تجارت دارد.",
+      "یک حرفه‌ای برجسته با سابقه در Cisco Systems، Vcustomer India Services و Indira Group of Institutes. او تخصص عمیقی در برنامه‌ریزی استراتژیک، روابط شرکتی و توسعه تجارت دارد.",
 
     /* Contact */
     contactLabel: "ارتباط با ما",
@@ -795,10 +792,8 @@ const translations = {
     titleDirector:
       "مدیر، INS · بنسټ ایښودونکی او اجراییه رییس، BioBridge Healthcare",
     titleHeadOfBusiness: "د سوداګرۍ مشر، د INS ګروپ کمپنۍ",
-    titleDirectorSales:
-      "د پلور او بازارموندنې مدیر، INS · هم بنسټ ایښودونکی او اجراییه رییس، Gryphon Academy",
-    titleAdvisor:
-      "سلاکار، INS · بنسټ ایښودونکی او مدیر، Gryphon Academy Pvt. Ltd.",
+    titleDirectorSales: "د پلور او بازارموندنې مدیر، INS",
+    titleAdvisor: "سلاکار، INS",
     tagAfghanTrade: "د افغانستان سوداګري",
     tagStrategicLeadership: "ستراتیژیکه رهبري",
     tagBusinessDev: "د سوداګرۍ پراختیا",
@@ -830,9 +825,9 @@ const translations = {
     bioHeadOfBusiness:
       "ښاغلی ناظر ناظري د INS ګروپ د سوداګرۍ مشر په توګه کار کوي، د شرکت سوداګریز عملیات او د پیرودونکو اړیکې په ټول افغانستان کې پرمخ وړي.",
     bioDirectorSales:
-      "اغلې امیمان انصاري د Gryphon Academy Pvt. Ltd.، پونې هم بنسټ ایښودونکې او اجراییه رییسه ده — یوه شرکتي روزنیزه کمپنۍ چې د صنعت او اکاډمۍ ترمنځ واټن ډکوي.",
+      "اغلې امیمان انصاري د پلور او بازارموندنې یوه مسلکي کس ده چې د بازار پراختیا او برانډ ستراتیژۍ کې ثابت ریکارډ لري. په INS کې، هغه د پلور ستراتیژي، بازار پراختیا او برانډ مشارکتونه رهبري کوي.",
     bioAdvisor:
-      "د Gryphon Academy Pvt. Ltd.، پونې بنسټ ایښودونکی او مدیر، د Cisco Systems کې د یوې برجسته دندې سره. هغه په ستراتیژیک پلان جوړونه، شرکتي اړیکو او سوداګرۍ پراختیا کې ژوره تخصص لري.",
+      "یو برجسته مسلکی کس د Cisco Systems، Vcustomer India Services او Indira Group of Institutes کې د دندې سره. هغه په ستراتیژیک پلان جوړونه، شرکتي اړیکو او سوداګرۍ پراختیا کې ژوره تخصص لري.",
 
     /* Contact */
     contactLabel: "اړیکه ونیسئ",
