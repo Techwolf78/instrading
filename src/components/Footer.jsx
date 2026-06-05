@@ -31,7 +31,7 @@ export default function Footer() {
             BioBridge's global healthcare expertise.
           </p>
           <p className="text-[11px] text-white/30 mt-3">
-            شرکت تجارتی عمران نذیر شیام
+            شرکت تجارتی عمران نذیر شام
           </p>
           <div className="mt-4">
             <img

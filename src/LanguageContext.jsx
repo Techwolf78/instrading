@@ -21,7 +21,7 @@ const translations = {
     heroBadge: "Registered in Afghanistan · Sister Concern of BioBridge India",
     heroTitle1: "Connecting Afghanistan",
     heroTitle2: "to the World",
-    heroDari: "شرکت تجارتی عمران نذیر شیام",
+    heroDari: "شرکت تجارتی عمران نذیر شام",
     heroDesc:
       "INS Group — Imran Nazir Shyam Trading Company — is a registered Afghan enterprise operating across Pharmaceutical Imports, Dry Fruits Exports, and Industrial Dehydration, backed by BioBridge's 15+ years of global healthcare expertise.",
     heroExplore: "Explore Our Sectors",
@@ -314,16 +314,16 @@ const translations = {
     navDehydration: "کارخانه کم‌آبی",
     navPartner: "همکاری با ما",
     navInsGroup: "گروه INS",
-    navSubtitle: "شرکت تجارتی عمران نذیر شیام",
+    navSubtitle: "شرکت تجارتی عمران نذیر شام",
     langSwitch: "English",
 
     /* Hero */
     heroBadge: "ثبت شده در افغانستان · شرکت خواهر BioBridge هند",
     heroTitle1: "اتصال افغانستان",
     heroTitle2: "به جهان",
-    heroDari: "شرکت تجارتی عمران نذیر شیام",
+    heroDari: "شرکت تجارتی عمران نذیر شام",
     heroDesc:
-      "گروه INS — شرکت تجارتی عمران نذیر شیام — یک شرکت ثبت شده افغانی است که در زمینه واردات دارو، صادرات میوه خشک و کم‌آبی صنعتی فعالیت می‌کند، با پشتیبانی بیش از ۱۵ سال تخصص جهانی بهداشت و درمان BioBridge.",
+      "گروه INS — شرکت تجارتی عمران نذیر شام — یک شرکت ثبت شده افغانی است که در زمینه واردات دارو، صادرات میوه خشک و کم‌آبی صنعتی فعالیت می‌کند، با پشتیبانی بیش از ۱۵ سال تخصص جهانی بهداشت و درمان BioBridge.",
     heroExplore: "بخش‌های ما را کاوش کنید",
     heroGetInTouch: "ارتباط با ما",
     heroAfg: "افغانستان",
@@ -355,7 +355,7 @@ const translations = {
     aboutWho: "ما کیستیم",
     aboutTitle: "نیرویی نوین در چشم‌انداز تجارت افغانستان",
     aboutP1:
-      "گروه شرکت‌های INS — که به نام شرکت تجارتی عمران نذیر شیام شناخته می‌شود — به عنوان یک شرکت ثبت شده افغانی برای پر کردن شکاف‌های حیاتی در اقتصاد واردات و صادرات افغانستان تأسیس شد.",
+      "گروه شرکت‌های INS — که به نام شرکت تجارتی عمران نذیر شام شناخته می‌شود — به عنوان یک شرکت ثبت شده افغانی برای پر کردن شکاف‌های حیاتی در اقتصاد واردات و صادرات افغانستان تأسیس شد.",
     aboutP2:
       "ما در سه بخش با تأثیر بالا فعالیت می‌کنیم — آوردن داروهای ضروری به کشور، صادرات میوه خشک مشهور جهانی افغانستان، و راه‌اندازی زیرساخت مدرن کم‌آبی. تیم ما دانش بازار محلی افغانستان را با استانداردهای تجارت بین‌المللی که از شرکت خواهر ما BioBridge به ارث رسیده، ترکیب می‌کند.",
     aboutP3:
@@ -369,7 +369,7 @@ const translations = {
     aboutFounded: "تأسیس",
     aboutSectors: "بخش‌ها",
     aboutRegistered: "ثبت شده",
-    aboutCompany: "عمران نذیر شیام",
+    aboutCompany: "عمران نذیر شام",
     aboutCompanySub: "شرکت تجارتی",
 
     /* Sectors */
@@ -434,7 +434,7 @@ const translations = {
     tl3Year: "۲۰۲۶",
     tl3Title: "تأسیس گروه INS",
     tl3Desc:
-      "ثبت شرکت تجارتی عمران نذیر شیام در افغانستان به عنوان شرکت خواهر BioBridge.",
+      "ثبت شرکت تجارتی عمران نذیر شام در افغانستان به عنوان شرکت خواهر BioBridge.",
     tl4Year: "امروز",
     tl4Title: "فعال و در حال رشد",
     tl4Desc:
@@ -595,7 +595,7 @@ const translations = {
     footerContactCol: "تماس",
     footerSister: "شرکت خواهر",
     footerCopy:
-      "© ۲۰۲۶ گروه INS — شرکت تجارتی عمران نذیر شیام. ثبت شده در افغانستان.",
+      "© ۲۰۲۶ گروه INS — شرکت تجارتی عمران نذیر شام. ثبت شده در افغانستان.",
   },
 
   ps: {
@@ -611,16 +611,16 @@ const translations = {
     navDehydration: "د اوبو ایستلو فابریکه",
     navPartner: "زموږ سره همکاري",
     navInsGroup: "INS ګروپ",
-    navSubtitle: "عمران نذیر شیام سوداګریزه کمپنۍ",
+    navSubtitle: "عمران نذیر شام سوداګریزه کمپنۍ",
     langSwitch: "English",
 
     /* Hero */
     heroBadge: "په افغانستان کې ثبت شوی · د BioBridge هند خور شرکت",
     heroTitle1: "افغانستان سره نښلول",
     heroTitle2: "نړۍ ته",
-    heroDari: "شرکت تجارتی عمران نذیر شیام",
+    heroDari: "شرکت تجارتی عمران نذیر شام",
     heroDesc:
-      "د INS ګروپ — د عمران نذیر شیام سوداګریزه کمپنۍ — یوه ثبت شوې افغاني تصدۍ ده چې د درملو وارداتو، وچو میوو صادراتو او صنعتي اوبو ایستلو په برخو کې فعالیت کوي، د BioBridge د ۱۵+ کلونو نړیوال روغتیایی تخصص په ملاتړ.",
+      "د INS ګروپ — د عمران نذیر شام سوداګریزه کمپنۍ — یوه ثبت شوې افغاني تصدۍ ده چې د درملو وارداتو، وچو میوو صادراتو او صنعتي اوبو ایستلو په برخو کې فعالیت کوي، د BioBridge د ۱۵+ کلونو نړیوال روغتیایی تخصص په ملاتړ.",
     heroExplore: "زموږ برخې وپلټئ",
     heroGetInTouch: "اړیکه ونیسئ",
     heroAfg: "افغانستان",
@@ -652,7 +652,7 @@ const translations = {
     aboutWho: "موږ څوک یو",
     aboutTitle: "د افغانستان د سوداګرۍ په برخه کې یو نوی ځواک",
     aboutP1:
-      "د INS ګروپ کمپنۍ — چې د عمران نذیر شیام سوداګریزې کمپنۍ په نوم پیژندل کیږي — د افغانستان د وارداتو او صادراتو په اقتصاد کې د مهمو تشو ډکولو لپاره تاسیس شوه.",
+      "د INS ګروپ کمپنۍ — چې د عمران نذیر شام سوداګریزې کمپنۍ په نوم پیژندل کیږي — د افغانستان د وارداتو او صادراتو په اقتصاد کې د مهمو تشو ډکولو لپاره تاسیس شوه.",
     aboutP2:
       "موږ په دریو لوړ اغیزو برخو کې فعالیت کوو — هیواد ته اړین درمل راوړو، د افغانستان مشهورې وچې میوې صادروو، او د اوبو ایستلو عصري زیربنا چلوو.",
     aboutP3:
@@ -665,7 +665,7 @@ const translations = {
     aboutFounded: "تاسیس",
     aboutSectors: "برخې",
     aboutRegistered: "ثبت شوی",
-    aboutCompany: "عمران نذیر شیام",
+    aboutCompany: "عمران نذیر شام",
     aboutCompanySub: "سوداګریزه کمپنۍ",
 
     /* Sectors */
@@ -729,7 +729,7 @@ const translations = {
     tl3Year: "۲۰۲۶",
     tl3Title: "INS ګروپ تاسیس",
     tl3Desc:
-      "د عمران نذیر شیام سوداګریزه کمپنۍ د BioBridge د خور شرکت په توګه په افغانستان کې ثبت شوه.",
+      "د عمران نذیر شام سوداګریزه کمپنۍ د BioBridge د خور شرکت په توګه په افغانستان کې ثبت شوه.",
     tl4Year: "نن",
     tl4Title: "فعال او وده",
     tl4Desc:
@@ -892,7 +892,7 @@ const translations = {
     footerContactCol: "اړیکه",
     footerSister: "خور شرکت",
     footerCopy:
-      "© ۲۰۲۶ د INS ګروپ — د عمران نذیر شیام سوداګریزه کمپنۍ. په افغانستان کې ثبت شوی.",
+      "© ۲۰۲۶ د INS ګروپ — د عمران نذیر شام سوداګریزه کمپنۍ. په افغانستان کې ثبت شوی.",
   },
 };
 
