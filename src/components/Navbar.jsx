@@ -166,7 +166,7 @@ export default function Navbar() {
                     : "bg-transparent text-white/60 border-white/25 hover:text-white hover:border-white/50"
                 }`}
               >
-                {l.code === "en" ? "EN" : l.code === "fa" ? "FA" : "PS"}
+                {l.label}
               </button>
             ))}
           </div>
@@ -285,7 +285,7 @@ export default function Navbar() {
                     : "bg-transparent text-white/60 border-white/25 hover:text-white hover:border-white/50"
                 }`}
               >
-                {l.code === "en" ? "EN" : l.code === "fa" ? "FA" : "PS"}
+                {l.label}
               </button>
             ))}
           </div>
