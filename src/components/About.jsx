@@ -1,6 +1,6 @@
 import React from "react";
 import { LOGO_SRC } from "../constants";
-import partnerLogo from "../assets/bioBridgeLogo.jpg";
+import partnerLogo from "../assets/bioBridgeLogo.png";
 import { useLanguage } from "../LanguageContext";
 
 export default function About() {
