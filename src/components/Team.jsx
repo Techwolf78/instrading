@@ -69,33 +69,34 @@ const leadershipMembers = [
 const advisoryMembers = [
   {
     name: "Mr. Nazir Nazari",
-    role: "Head of Business",
-    roleKey: "roleHeadOfBusiness",
-    titleKey: "titleHeadOfBusiness",
+    role: "",
+    roleKey: "",
+    hideBadge: true,
+    titleKey: "",
     image: nazirImg,
     pillClass: "bg-[#2bb89a]/12 text-teal-dark border border-[#2bb89a]/30",
     gradient:
       "linear-gradient(135deg, rgba(13,33,55,0.07) 0%, rgba(43,184,154,0.06) 100%)",
-    title: "Head of Business, INS Group of Companies",
+    title: "Head of Business, Gryphon Academy",
     bioKey: "bioHeadOfBusiness",
-    bio: "Mr. Nazir Nazari serves as Head of Business at INS Group, driving the company's commercial operations and client relationships across Afghanistan. With hands-on experience in business development and delivery management — including his role at Gryphon Academy — he brings a strong understanding of cross-sector project execution, institutional coordination, and operational management. At INS, he oversees business planning, partner engagement and day-to-day commercial activities.",
+    bio: "Mr. Nazir Nazari serves as Head of Business at Gryphon Academy, driving the company's commercial operations and client relationships across Afghanistan. With hands-on experience in business development and delivery management — including his role at Gryphon Academy — he brings a strong understanding of cross-sector project execution, institutional coordination, and operational management. At INS, he oversees business planning, partner engagement and day-to-day commercial activities.",
     tags: ["Business Development", "Operations", "Project Delivery"],
     tagKeys: ["tagBusinessDev", "tagOperations", "tagProjectDelivery"],
     wide: true,
   },
   {
     name: "Ms. Ummeaiman Ansari",
-    role: "Director — Sales & Marketing",
-    roleKey: "roleDirectorSales",
-    titleKey: "titleDirectorSales",
+    role: "",
+    roleKey: "",
+    hideBadge: true,
+    titleKey: "",
     image: ummeaimanImg,
     pillClass: "bg-teal/12 text-teal-dark border border-teal/25",
     gradient:
       "linear-gradient(135deg, rgba(26,138,117,0.09) 0%, rgba(13,33,55,0.07) 100%)",
-    title:
-      "Director Sales & Marketing, INS · Co-Founder & CEO, Gryphon Academy",
+    title: "Co-Founder, Gryphon Academy",
     bioKey: "bioDirectorSales",
-    bio: "Ms. Ummeaiman Ansari is the Co-Founder and CEO of Gryphon Academy Pvt. Ltd., Pune — a corporate training firm bridging the gap between industry and academia. Known for her visionary leadership, exceptional time management and ability to guide teams through high-pressure environments, she has driven institutional outreach across leading colleges and corporates in India. At INS, she leads sales strategy, market development and brand partnerships — connecting Afghan trade with Indian and global buyers.",
+    bio: "Ms. Ummeaiman Ansari is the Co-Founder of Gryphon Academy Pvt. Ltd., Pune — a corporate training firm bridging the gap between industry and academia. Known for her visionary leadership, exceptional time management and ability to guide teams through high-pressure environments, she has driven institutional outreach across leading colleges and corporates in India. At INS, she leads sales strategy, market development and brand partnerships — connecting Afghan trade with Indian and global buyers.",
     tags: [
       "Sales Strategy",
       "Market Development",
@@ -112,14 +113,15 @@ const advisoryMembers = [
   },
   {
     name: "Mr. Shashi Bhat",
-    role: "Advisor",
-    roleKey: "roleAdvisor",
-    titleKey: "titleAdvisor",
+    role: "",
+    roleKey: "",
+    hideBadge: true,
+    titleKey: "",
     image: shashiImg,
     pillClass: "bg-navy/6 text-navy-light border border-navy/15",
     gradient:
       "linear-gradient(135deg, rgba(13,33,55,0.1) 0%, rgba(26,138,117,0.05) 100%)",
-    title: "Advisor, INS · Founder & Director, Gryphon Academy Pvt. Ltd.",
+    title: "Founder, Gryphon Academy",
     bioKey: "bioAdvisor",
     bio: "Founder and Director of Gryphon Academy Pvt. Ltd., Pune, with a distinguished career spanning Cisco Systems (Senior Sales & Marketing), Vcustomer India Services, and Indira Group of Institutes (Director, Corporate Relations). He brings deep expertise in strategic planning, corporate relations, team management and business development. His advisory role at INS draws on his extensive network across Indian industry, academia and corporate sectors, supporting expansion and institutional partnerships in India.",
     tags: [
@@ -154,7 +156,7 @@ export default function Team() {
 
       {/* INS Leadership */}
       <div className="mb-8 text-left max-w-6xl mx-auto">
-          <div className="flex items-center gap-3 text-teal text-2xl tracking-[2px] uppercase font-bold">
+        <div className="flex items-center gap-3 text-teal text-2xl tracking-[2px] uppercase font-bold">
           <div className="w-10 h-[2px] bg-teal" />
           INS Leadership
         </div>
@@ -233,7 +235,7 @@ export default function Team() {
 
       {/* Advisory Board */}
       <div className="mt-20 mb-8 text-left max-w-6xl mx-auto">
-          <div className="flex items-center gap-3 text-teal text-2xl tracking-[2px] uppercase font-bold">
+        <div className="flex items-center gap-3 text-teal text-2xl tracking-[2px] uppercase font-bold">
           <div className="w-10 h-[2px] bg-teal" />
           Advisory Board
         </div>
@@ -270,16 +272,18 @@ export default function Team() {
 
             <div className="p-6 sm:p-7 flex-1 flex flex-col justify-between">
               <div>
-                <div
-                  className={`inline-block text-[10px] font-semibold tracking-[1.5px] uppercase py-1 px-3 rounded-full mb-2.5 ${member.pillClass}`}
-                >
-                  {t(member.roleKey)}
-                </div>
+                {!member.hideBadge && member.roleKey && (
+                  <div
+                    className={`inline-block text-[10px] font-semibold tracking-[1.5px] uppercase py-1 px-3 rounded-full mb-2.5 ${member.pillClass}`}
+                  >
+                    {t(member.roleKey)}
+                  </div>
+                )}
                 <h3 className="font-serif text-[19px] text-navy mb-0.5 leading-tight font-bold">
                   {member.name}
                 </h3>
                 <p className="text-[11px] text-teal-dark font-semibold leading-tight mb-0.5">
-                  {t(member.titleKey || member.title)}
+                  {member.title}
                 </p>
                 {member.qual && (
                   <p className="text-[10px] text-text-light tracking-[0.5px] mb-0.5">
