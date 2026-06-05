@@ -66,69 +66,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Floating Logo Background */}
-      <div
-        className={`absolute ${lang !== "en" ? "left-[60px]" : "right-[60px]"} top-1/2 -translate-y-1/2 z-10 hidden lg:flex flex-col items-center gap-3.5 hero-logo-wrap pointer-events-none opacity-40`}
-      >
-        <img
-          src={LOGO_SRC}
-          className="w-[260px] h-[260px] object-contain drop-shadow-[0_0_40px_rgba(43,184,154,0.45)] animate-float hero-logo-float"
-          alt=""
-        />
-      </div>
-
-      {/* Side Cards Stack */}
-      <div
-        className={`absolute ${lang !== "en" ? "left-[60px]" : "right-[60px]"} top-1/2 -translate-y-1/2 z-20 hidden lg:flex flex-col gap-3.5 hero-cards`}
-      >
-        <div className="bg-white/[0.06] border border-teal/25 rounded-lg p-[14px_18px] flex items-center gap-3 min-w-[190px] backdrop-blur-[4px] hero-card">
-          <div className="text-[24px] hero-card-icon">🇦🇫</div>
-          <div>
-            <strong className="block text-white text-[13px] font-semibold text-left">
-              {t("heroAfg")}
-            </strong>
-            <span className="text-teal-light text-[10px] tracking-[0.5px] uppercase block text-left">
-              {t("heroRegHQ")}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-white/[0.06] border border-teal/25 rounded-lg p-[14px_18px] flex items-center gap-3 min-w-[190px] backdrop-blur-[4px] hero-card">
-          <div className="text-[24px] hero-card-icon">💊</div>
-          <div>
-            <strong className="block text-white text-[13px] font-semibold text-left">
-              {t("heroPharma")}
-            </strong>
-            <span className="text-teal-light text-[10px] tracking-[0.5px] uppercase block text-left">
-              {t("heroEssential")}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-white/[0.06] border border-teal/25 rounded-lg p-[14px_18px] flex items-center gap-3 min-w-[190px] backdrop-blur-[4px] hero-card">
-          <div className="text-[24px] hero-card-icon">🍇</div>
-          <div>
-            <strong className="block text-white text-[13px] font-semibold text-left">
-              {t("heroDry")}
-            </strong>
-            <span className="text-teal-light text-[10px] tracking-[0.5px] uppercase block text-left">
-              {t("heroExport")}
-            </span>
-          </div>
-        </div>
-
-        <div className="bg-white/[0.06] border border-teal/25 rounded-lg p-[14px_18px] flex items-center gap-3 min-w-[190px] backdrop-blur-[4px] hero-card">
-          <div className="text-[24px] hero-card-icon">🏭</div>
-          <div>
-            <strong className="block text-white text-[13px] font-semibold text-left">
-              {t("heroDehy")}
-            </strong>
-            <span className="text-teal-light text-[10px] tracking-[0.5px] uppercase block text-left">
-              {t("heroPlant")}
-            </span>
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
