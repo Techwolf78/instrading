@@ -10,6 +10,44 @@ export default function Contact() {
     const form = e.target;
     const data = new FormData(form);
 
+    const now = Date.now();
+    const storageKey = "ins_contact_submissions";
+    let submissions = [];
+    try {
+      submissions = JSON.parse(localStorage.getItem(storageKey) || "[]");
+    } catch (err) {
+      submissions = [];
+    }
+
+    // Filter out submissions older than 1 hour (3,600,000 ms)
+    const oneHourAgo = now - 3600000;
+    submissions = submissions.filter((ts) => ts > oneHourAgo);
+
+    // Check 60-second cooldown from the last submission
+    if (submissions.length > 0) {
+      const lastSubmit = submissions[submissions.length - 1];
+      const secondsPassed = Math.floor((now - lastSubmit) / 1000);
+      if (secondsPassed < 60) {
+        const remainingSeconds = 60 - secondsPassed;
+        setToast({
+          type: "error",
+          message: t("toastRateLimitCooldown").replace("{seconds}", remainingSeconds),
+        });
+        setTimeout(() => setToast(null), 5000);
+        return;
+      }
+    }
+
+    // Check hourly limit (max 3 submissions)
+    if (submissions.length >= 3) {
+      setToast({
+        type: "error",
+        message: t("toastRateLimitLimit"),
+      });
+      setTimeout(() => setToast(null), 5000);
+      return;
+    }
+
     setToast({ type: "loading", message: t("toastSending") });
 
     try {
@@ -24,6 +62,9 @@ export default function Contact() {
       if (res.ok) {
         setToast({ type: "success", message: t("toastSuccess") });
         form.reset();
+        // Record the new successful submission
+        submissions.push(Date.now());
+        localStorage.setItem(storageKey, JSON.stringify(submissions));
       } else {
         setToast({
           type: "error",

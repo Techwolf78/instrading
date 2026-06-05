@@ -280,6 +280,8 @@ const translations = {
     contactSend: "Send Message →",
     toastSending: "Sending your message...",
     toastSuccess: "Thank you! Your form was submitted successfully.",
+    toastRateLimitLimit: "Too many message requests. Please wait a while before trying again.",
+    toastRateLimitCooldown: "Please wait {seconds}s before sending another message.",
 
     /* Footer */
     footerTagline:
@@ -575,6 +577,8 @@ const translations = {
     contactSend: "ارسال پیام →",
     toastSending: "در حال ارسال پیام شما...",
     toastSuccess: "متشکریم! فرم شما با موفقیت ارسال شد.",
+    toastRateLimitLimit: "درخواست‌های پیام بسیار زیاد است. لطفاً قبل از تلاش مجدد کمی صبر کنید.",
+    toastRateLimitCooldown: "لطفاً {seconds} ثانیه قبل از ارسال پیام دیگر صبر کنید.",
 
     /* Footer */
     footerTagline:
@@ -870,6 +874,8 @@ const translations = {
     contactSend: "پیغام واستوئ →",
     toastSending: "ستاسو پیغام لیږل کیږي...",
     toastSuccess: "مننه! ستاسو فورمه په بریالیتوب سره وسپارل شوه.",
+    toastRateLimitLimit: "ډیرې غوښتنې. مهرباني وکړئ د بیا هڅه کولو دمخه لږ انتظار وکړئ.",
+    toastRateLimitCooldown: "مهرباني وکړئ د بل پیغام لیږلو دمخه {seconds} ثانیې انتظار وکړئ.",
 
     /* Footer */
     footerTagline:
