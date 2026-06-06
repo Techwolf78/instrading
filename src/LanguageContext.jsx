@@ -20,7 +20,7 @@ const translations = {
     /* Hero */
     heroBadge: "Registered in Afghanistan · Sister Concern of BioBridge India",
     heroTitle1: "Connecting Afghanistan",
-    heroTitle2: "to the World",
+    heroTitle2: "to the World again",
     heroDari: "شرکت تجارتی عمران نذیر شام",
     heroDesc:
       "INS Group — Imran Nazir Shyam Trading Company — is a registered Afghan enterprise operating across Pharmaceutical Imports, Dry Fruits Exports, and Industrial Dehydration, backed by BioBridge's 15+ years of global healthcare expertise.",
@@ -320,7 +320,7 @@ const translations = {
     /* Hero */
     heroBadge: "ثبت شده در افغانستان · شرکت خواهر BioBridge هند",
     heroTitle1: "اتصال افغانستان",
-    heroTitle2: "به جهان",
+    heroTitle2: "دوباره به جهان",
     heroDari: "شرکت تجارتی عمران نذیر شام",
     heroDesc:
       "گروه INS — شرکت تجارتی عمران نذیر شام — یک شرکت ثبت شده افغانی است که در زمینه واردات دارو، صادرات میوه خشک و کم‌آبی صنعتی فعالیت می‌کند، با پشتیبانی بیش از ۱۵ سال تخصص جهانی بهداشت و درمان BioBridge.",
@@ -617,7 +617,7 @@ const translations = {
     /* Hero */
     heroBadge: "په افغانستان کې ثبت شوی · د BioBridge هند خور شرکت",
     heroTitle1: "افغانستان سره نښلول",
-    heroTitle2: "نړۍ ته",
+    heroTitle2: "بیا نړۍ ته",
     heroDari: "شرکت تجارتی عمران نذیر شام",
     heroDesc:
       "د INS ګروپ — د عمران نذیر شام سوداګریزه کمپنۍ — یوه ثبت شوې افغاني تصدۍ ده چې د درملو وارداتو، وچو میوو صادراتو او صنعتي اوبو ایستلو په برخو کې فعالیت کوي، د BioBridge د ۱۵+ کلونو نړیوال روغتیایی تخصص په ملاتړ.",
