@@ -143,7 +143,8 @@ export default function Footer() {
                 className="text-white/50 no-underline text-xs transition-colors hover:text-teal-light"
                 href="tel:+93764529206"
               >
-                +93 764 529 206 (AF)
+                {t("footerAfgOffice")}{" "}
+                <bdi dir="ltr">{t("footerAfgPhone")}</bdi>
               </a>
             </li>
             <li>
@@ -151,7 +152,17 @@ export default function Footer() {
                 className="text-white/50 no-underline text-xs transition-colors hover:text-teal-light"
                 href="tel:+918169020598"
               >
-                +91 816 902 0598 (IN)
+                {t("footerIndiaOffice")}{" "}
+                <bdi dir="ltr">{t("footerIndiaPhone")}</bdi>
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-white/50 no-underline text-xs transition-colors hover:text-teal-light"
+                href="tel:+919004349041"
+              >
+                {t("footerBioBridgeIndia")}{" "}
+                <bdi dir="ltr">{t("footerBioBridgePhone")}</bdi>
               </a>
             </li>
             <li>

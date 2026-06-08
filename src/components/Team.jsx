@@ -153,6 +153,9 @@ export default function Team() {
         <p className="text-base sm:text-lg leading-relaxed text-text-mid mt-3">
           {t("teamDesc")}
         </p>
+        <p className="text-[11px] sm:text-xs tracking-[2px] uppercase text-teal-dark font-semibold mt-4">
+          {t("teamTagline")}
+        </p>
       </div>
 
       {/* INS Leadership */}

@@ -137,7 +137,7 @@ export default function Contact() {
                     </div>
                     <div className="pt-0.5">
                       <strong className="block text-[13px] text-navy font-semibold">
-                        Afghanistan Office
+                        {t("contactAfgOffice")}
                       </strong>
                       <span className="text-xs text-text-light leading-relaxed">
                         {t("contactAfgAddr")}
@@ -164,7 +164,7 @@ export default function Contact() {
               <div className="mb-6">
                 <h4 className="text-[10px] tracking-[2px] uppercase text-teal font-semibold mb-3 flex items-center gap-2">
                   <span className="w-4 h-[1px] bg-teal/50" />
-                  Email
+                  {t("contactEmail")}
                 </h4>
                 <div className="space-y-3">
                   <div className="flex gap-3.5 items-center">
@@ -206,7 +206,7 @@ export default function Contact() {
               <div>
                 <h4 className="text-[10px] tracking-[2px] uppercase text-teal font-semibold mb-3 flex items-center gap-2">
                   <span className="w-4 h-[1px] bg-teal/50" />
-                  Phone
+                  {t("contactPhone")}
                 </h4>
                 <div className="space-y-3">
                   <div className="flex gap-3.5 items-center">
@@ -215,11 +215,11 @@ export default function Contact() {
                     </div>
                     <div>
                       <strong className="block text-[13px] text-navy font-semibold">
-                        Afghanistan Office
+                        {t("contactAfgPhone")}
                       </strong>
-                      <span className="text-xs text-text-light">
-                        +93 764 529 206
-                      </span>
+                      <bdi className="text-xs text-text-light" dir="ltr">
+                        {t("contactAfgPhoneNumber")}
+                      </bdi>
                     </div>
                   </div>
                   <div className="flex gap-3.5 items-center">
@@ -230,9 +230,9 @@ export default function Contact() {
                       <strong className="block text-[13px] text-navy font-semibold">
                         {t("contactIndiaPhone")}
                       </strong>
-                      <span className="text-xs text-text-light">
-                        +91 816 902 0598
-                      </span>
+                      <bdi className="text-xs text-text-light" dir="ltr">
+                        {t("contactIndiaPhoneNumber")}
+                      </bdi>
                     </div>
                   </div>
                   <div className="flex gap-3.5 items-center">
@@ -243,9 +243,9 @@ export default function Contact() {
                       <strong className="block text-[13px] text-navy font-semibold">
                         {t("contactBioPhone")}
                       </strong>
-                      <span className="text-xs text-text-light">
-                        +91 900 434 9041
-                      </span>
+                      <bdi className="text-xs text-text-light" dir="ltr">
+                        {t("contactBioPhoneNumber")}
+                      </bdi>
                     </div>
                   </div>
                 </div>
