@@ -2,7 +2,7 @@ import React from "react";
 import { useLanguage } from "../LanguageContext";
 import shyamImg from "../assets/shyam.jpg";
 import ganeshImg from "../assets/team_ganesh.png";
-import imranImg from "../assets/Imran.jpg";
+import imranImg from "../assets/imrannazari.avif";
 import nazirImg from "../assets/Nazir.jpeg";
 import ummeaimanImg from "../assets/Ummi.png";
 import shashiImg from "../assets/Shashi.jpeg";
