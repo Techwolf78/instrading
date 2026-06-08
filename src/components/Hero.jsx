@@ -1,11 +1,24 @@
 import React from "react";
 import { LOGO_SRC } from "../constants";
 import { useLanguage } from "../LanguageContext";
+import heroBanner from "../assets/hero_banner.avif";
 
 export default function Hero() {
   const { t, lang } = useLanguage();
   return (
     <section className="relative min-h-screen bg-navy flex items-center px-6 md:px-12 py-[120px] overflow-hidden text-left hero">
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          backgroundImage: `url(${heroBanner})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          opacity: 0.3,
+        }}
+      />
+
       {/* Background Gradients */}
       <div
         className="absolute inset-0 pointer-events-none hero-bg"
@@ -14,6 +27,7 @@ export default function Hero() {
             "radial-gradient(ellipse at 75% 30%, rgba(26,138,117,0.12) 0%, transparent 55%), radial-gradient(ellipse at 20% 75%, rgba(26,138,117,0.07) 0%, transparent 40%)",
         }}
       />
+
       {/* Grid Overlay */}
       <div
         className="absolute inset-0 pointer-events-none hero-grid"
