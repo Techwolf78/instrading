@@ -5,8 +5,12 @@ import heroBanner from "../assets/hero_banner.avif";
 
 export default function Hero() {
   const { t, lang } = useLanguage();
+  const isRTL = lang === "fa" || lang === "ps";
   return (
-    <section className="relative min-h-screen bg-navy flex items-center px-6 md:px-12 py-[120px] overflow-hidden text-left hero">
+    <section
+      className={`relative min-h-screen bg-navy flex items-center px-6 md:px-12 py-[120px] overflow-hidden hero ${isRTL ? "text-right" : "text-left"}`}
+      dir={isRTL ? "rtl" : "ltr"}
+    >
       {/* Background Image */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -16,6 +20,7 @@ export default function Hero() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           opacity: 0.3,
+          transform: isRTL ? "scaleX(-1)" : "none",
         }}
       />
 
@@ -23,8 +28,9 @@ export default function Hero() {
       <div
         className="absolute inset-0 pointer-events-none hero-bg"
         style={{
-          background:
-            "radial-gradient(ellipse at 75% 30%, rgba(26,138,117,0.12) 0%, transparent 55%), radial-gradient(ellipse at 20% 75%, rgba(26,138,117,0.07) 0%, transparent 40%)",
+          background: isRTL
+            ? "radial-gradient(ellipse at 25% 30%, rgba(26,138,117,0.12) 0%, transparent 55%), radial-gradient(ellipse at 80% 75%, rgba(26,138,117,0.07) 0%, transparent 40%)"
+            : "radial-gradient(ellipse at 75% 30%, rgba(26,138,117,0.12) 0%, transparent 55%), radial-gradient(ellipse at 20% 75%, rgba(26,138,117,0.07) 0%, transparent 40%)",
         }}
       />
 

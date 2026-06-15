@@ -80,7 +80,7 @@ const advisoryMembers = [
       "linear-gradient(135deg, rgba(13,33,55,0.07) 0%, rgba(43,184,154,0.06) 100%)",
     title: "Head of Business, Gryphon Academy",
     bioKey: "bioHeadOfBusiness",
-    bio: "Mr. Nazir Nazari serves as Head of Business at Gryphon Academy, driving the company's commercial operations and client relationships across Afghanistan. With hands-on experience in business development and delivery management — including his role at Gryphon Academy — he brings a strong understanding of cross-sector project execution, institutional coordination, and operational management. At INS, he oversees business planning, partner engagement and day-to-day commercial activities.",
+    bio: "Mr. Nazir Nazari serves as Head of Business at INS Group, driving the company's commercial operations and client relationships across Afghanistan. With hands-on experience in business development and delivery management, he brings a strong understanding of cross-sector project execution, institutional coordination, and operational management. At INS, he oversees business planning, partner engagement and day-to-day commercial activities.",
     tags: ["Business Development", "Operations", "Project Delivery"],
     tagKeys: ["tagBusinessDev", "tagOperations", "tagProjectDelivery"],
     wide: true,
@@ -97,7 +97,7 @@ const advisoryMembers = [
       "linear-gradient(135deg, rgba(26,138,117,0.09) 0%, rgba(13,33,55,0.07) 100%)",
     title: "Co-Founder, Gryphon Academy",
     bioKey: "bioDirectorSales",
-    bio: "Ms. Ummeaiman Ansari is the Co-Founder of Gryphon Academy Pvt. Ltd., Pune — a corporate training firm bridging the gap between industry and academia. Known for her visionary leadership, exceptional time management and ability to guide teams through high-pressure environments, she has driven institutional outreach across leading colleges and corporates in India. At INS, she leads sales strategy, market development and brand partnerships — connecting Afghan trade with Indian and global buyers.",
+    bio: "Ms. Ummeaiman Ansari is a seasoned sales and marketing professional with a proven track record in market development and brand strategy. Known for her visionary leadership, exceptional time management and ability to guide teams through high-pressure environments. At INS, she leads sales strategy, market development and brand partnerships — connecting Afghan trade with Indian and global buyers.",
     tags: [
       "Sales Strategy",
       "Market Development",
@@ -124,7 +124,7 @@ const advisoryMembers = [
       "linear-gradient(135deg, rgba(13,33,55,0.1) 0%, rgba(26,138,117,0.05) 100%)",
     title: "Founder, Gryphon Academy",
     bioKey: "bioAdvisor",
-    bio: "Founder and Director of Gryphon Academy Pvt. Ltd., Pune, with a distinguished career spanning Cisco Systems (Senior Sales & Marketing), Vcustomer India Services, and Indira Group of Institutes (Director, Corporate Relations). He brings deep expertise in strategic planning, corporate relations, team management and business development. His advisory role at INS draws on his extensive network across Indian industry, academia and corporate sectors, supporting expansion and institutional partnerships in India.",
+    bio: "Mr. Shashi Bhatt is a distinguished professional with a career spanning Cisco Systems (Senior Sales & Marketing), Vcustomer India Services, and Indira Group of Institutes (Director, Corporate Relations). He brings deep expertise in strategic planning, corporate relations, team management and business development. His advisory role at INS draws on his extensive network across Indian industry, academia and corporate sectors, supporting expansion and institutional partnerships in India.",
     tags: [
       "Strategic Planning",
       "Corporate Relations",
